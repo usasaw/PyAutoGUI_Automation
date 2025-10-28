@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# virtualenv
+.venv/
+venv/
+env/
+ENV/
+
+# logs
+logs/
+*.log
+
+# VSCode
+.vscode/
+
+# system
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+*.local
+
+# env files
+.env
+.env.*.local
+
+# other
+*.sqlite3
