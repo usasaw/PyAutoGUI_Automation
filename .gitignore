@@ -1,35 +1,29 @@
-# Python
+# Python cache / build
 __pycache__/
 *.py[cod]
 *.egg-info/
-dist/
 build/
+dist/
 
-# virtualenv
-.venv/
+# Virtual environment
+backend/.venv/
 venv/
 env/
 ENV/
 
-# logs
+# Runtime output
+screenshots/
 logs/
-*.log
-
-# VSCode
-.vscode/
-
-# system
-.DS_Store
-Thumbs.db
 
 # Node
 node_modules/
-dist/
-*.local
+frontend/dist/
 
-# env files
+# Local env / secrets
 .env
 .env.*.local
 
-# other
-*.sqlite3
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
